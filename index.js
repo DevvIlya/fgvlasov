@@ -19,6 +19,11 @@ let DATA = {
     timeZone: 'Europe/Moscow',
   }),
 };
+
+// Добавляем дату последнего обновления
+DATA.refresh_date = new Date().toLocaleString('en-GB');
+
+
 /**
   * A - We open 'main.mustache'
   * B - We ask Mustache to render our file with the data
