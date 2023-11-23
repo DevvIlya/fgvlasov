@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Yi1lei6a3/Yi1ley6a3#readme",
   "dependencies": {
+    "axios": "^1.6.2",
     "mustache": "^4.2.0"
   }
 }
